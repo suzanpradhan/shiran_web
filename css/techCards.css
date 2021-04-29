@@ -1,0 +1,29 @@
+
+
+.rightContainerContent .techCards{
+    display: flex;
+    flex-direction: column;
+}
+.techCards .row{
+    display: flex;
+    flex-direction: row;
+}
+.techCard{
+    margin: 25px;
+    box-sizing: border-box;
+    width: 240px;
+    /* justify-content: space-between; */
+}
+
+.techCard .title p{
+    font-size: 20px;
+    font-family: Gilroy;
+    color: white;
+}
+
+.techCard .description p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: Gilroy;
+    color: #bfbfbf;
+}

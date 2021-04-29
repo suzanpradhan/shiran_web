@@ -1,0 +1,66 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 4rem 0rem 3rem;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 32px;
+}
+
+.logo p{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    font-family: Gilroy;
+}
+
+.rightContent{
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li{
+    display: inline-block;
+    margin: 0px 14px;
+    font-size: 13px;
+    color: #bfbfbf;
+    font-family: Gilroy;
+    cursor: pointer;
+}
+
+.navigation ul li:hover{
+    color: white;
+}
+
+.navigation ul li.navActive{
+    color: white;
+}
+
+.rightContent .authButtons button{
+    margin-left: 18px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-family: Gilroy;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    transition: background-color 350ms;
+    cursor: pointer;
+    outline: none;
+}
+
+.rightContent .authButtons button:hover{
+    background-color: white;
+    color: black;
+}
